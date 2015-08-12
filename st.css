@@ -1,0 +1,43 @@
+@font-face {
+    font-family: noticiar;
+    src: url(noticiatext-regular.woff);
+} 
+
+@font-face {
+    font-family: noticiab;
+    src: url(noticiatext-bold.woff);
+} 
+
+body {
+	background-image: url(https://lh4.googleusercontent.com/YEWXXdA_2yyUJQCaMcVBUUeflQ9powsbBU4D4XnjMkAO2EXAnwSKCXaB1rJA7-p5J7MNEqwQLZpFfVQ=w1566-h669);
+	background-size: 100% 130%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin:content-box;
+}
+
+h1 {
+	font-family: noticiar;
+	color: #70FEA9;
+	font-size: 42px;
+    line-height: 10%;
+    font-weight: 400;
+}
+
+h4 {
+	font-family: noticiar;
+	color: #70FEA9;
+	font-size: 15px;
+    line-height: 180%;
+    font-weight: 500;
+}
+
+h3 {
+	font-family: noticiab;
+	color: #3D9BE9;
+	font-size: 15px;
+    line-height: 0%;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
